@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" );
+
+.footercontainer{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+}
+.footercontainer1{
+    display: flex;
+    justify-content:center;
+    gap:19rem;
+    margin-left: 60px;
+    align-items: center;
+}
+.about p{
+color:#555555;
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 500;
+}
+.links{
+    position:relative;
+    top:30px;
+    font-family: 'Inter';
+}
+.links h4{
+    font-size: 24px;
+    font-weight: 600;
+    color:black;
+}
+.links p{
+    color:#555555;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+.menu{
+    position:relative;
+    top:30px;
+    font-family: 'Inter';
+}
+.menu h4{
+    font-size: 24px;
+    font-weight: 600;
+    color:black;
+}
+.menu p{
+    color:#555555;
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact-list{
+    position:relative;
+    /* top:5px; */
+    font-family: 'Inter';
+}
+.contact-list h4{
+    font-size: 24px;
+    font-weight: 600;
+    color:black;
+}
+.contact-list p{
+    color:#555555;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footercontainer2{
+    display: flex;
+    justify-content: flex-start;
+     gap:19rem;
+     margin-top:100px;
+     margin-left:150px;
+     margin-bottom:20px;
+}
+.footercontainer2 .icon{
+    display: flex;
+    gap:3rem;
+}
+.icon img{
+    background-color:#EDFFEF;
+    padding:15px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.icon .iconimg1{
+    height:25.25px ;
+    width:25px;
+    background-color: #39DB4A;
+}
+
+@media (max-width:1280px) {
+    .footercontainer{
+
+        margin-top: 30px;
+        display:flex;
+
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        width:90%;
+    }
+    .footercontainer1{
+        display: flex;
+        justify-content:center;
+         gap:7rem; 
+        /* margin-left: 60px; */
+        position: relative;
+        width:90%;
+    
+        /* align-items: center; */
+    }
+    .about p{
+    color:#555555;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+
+    }
+    .links{
+        position:relative;
+        top:10px;
+        font-family: 'Inter';
+    }
+    .links h4{
+        font-size: 22px;
+        font-weight: 600;
+        color:black;
+        white-space: nowrap;
+    }
+    .links p{
+        color:#555555;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    
+    
+    .menu{
+        position:relative;
+        top:0px;
+        font-family: 'Inter';
+    }
+    .menu h4{
+        font-size: 22px;
+        font-weight: 600;
+        color:black;
+        white-space:nowrap;
+    }
+    .menu p{
+        color:#555555;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .contact-list{
+        position:relative;
+        /* top:5px; */
+        font-family: 'Inter';
+    }
+    .contact-list h4{
+        font-size: 22px;
+        font-weight: 600;
+        color:black;
+        white-space: nowrap;
+    }
+    .contact-list p{
+        color:#555555;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .footercontainer2{
+        display: flex;
+        justify-content:flex-start;
+         gap:8rem;
+         margin-top:100px;
+         /* margin-left:150px; */
+         margin-bottom:20px;
+         width:90%; 
+    }
+    .footercontainer2 .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+    }
+    .icon img{
+        background-color:#EDFFEF;
+        padding:15px;
+        border-radius: 50%;
+        cursor:pointer;
+    }
+    .icon .iconimg1{
+        height:25.25px ;
+        width:25px;
+        background-color: #39DB4A;
+    }
+    .copy{
+        width:40%;
+    }
+}
+@media (max-width:768px)
+{
+     .footercontainer{
+
+        margin-top: 30px;
+        display:flex;
+
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        width:100%;
+    }
+    .footercontainer1{
+        display: flex;
+        justify-content:space-between;
+         gap:1rem; 
+        /* margin-left: 60px; */
+        position: relative;
+        width:100%;
+    
+        /* align-items: center; */
+    }
+    .about p{
+    color:#555555;
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+
+    }
+    .links{
+        position:relative;
+        top:10px;
+        font-family: 'Inter';
+    }
+    .links h4{
+        font-size: 20px;
+        font-weight: 600;
+        color:black;
+        white-space: nowrap;
+    }
+    .links p{
+        color:#555555;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    
+    
+    .menu{
+        position:relative;
+        top:10px;
+        font-family: 'Inter';
+    }
+    .menu h4{
+        font-size: 20px;
+        font-weight: 600;
+        color:black;
+        white-space:nowrap;
+    }
+    .menu p{
+        color:#555555;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .contact-list{
+        position:relative;
+        /* top:5px; */
+        font-family: 'Inter';
+    }
+    .contact-list h4{
+        font-size: 20px;
+        font-weight: 600;
+        color:black;
+        white-space: nowrap;
+    }
+    .contact-list p{
+        color:#555555;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .footercontainer2{
+        display: flex;
+        justify-content:flex-start;
+         gap:8rem;
+         margin-top:100px;
+         /* margin-left:150px; */
+         margin-bottom:20px;
+         width:90%; 
+    }
+    .footercontainer2 .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+    }
+    .icon img{
+        background-color:#EDFFEF;
+        padding: 10px;
+        border-radius: 50%;
+        cursor:pointer;
+    }
+    .icon .iconimg1{
+        height:20.25px ;
+        width:20px;
+        background-color: #39DB4A;
+    }
+    .copy{
+        width:50%;
+    }
+}

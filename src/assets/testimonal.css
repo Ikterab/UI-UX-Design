@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" );
+
+.testimonialcontainer{
+    margin-top:250px;
+    display: flex;
+    justify-content: center;
+}
+.testicontainer1{
+    display:flex;
+
+}
+.testicontainer1 .chefpic{
+    position:relative;
+}
+.testicontainer1 p{
+    position: relative;
+    top:451px;
+    font-size:40px
+}
+.testicontainer1 .p1{
+    position:relative;
+    left:120px;
+    z-index:4;
+    transform: rotate(-20deg);
+    
+     /* outside left */
+    /* transform: rotate(-20deg) translateY(-50%); */
+    
+}
+
+.testicontainer1 .p2{
+    /* position:relative; */
+    right:30px;
+    margin-bottom:640px;
+    transform: rotate(60deg);
+}
+
+.bestchef {
+    display: block;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+height:79px;
+width:250px;
+    top:650px;
+    right:250px;
+    /* position: relative;
+    height:79px; */
+
+
+}
+.bestchef .comment{
+   position:relative;
+    height:200px;
+    width:120%
+}
+.bestchef .p3{
+    position:absolute;
+    right:13px;
+    top:60px;
+
+    font-size:20px;
+    font-weight:600;
+}
+/* .bestchef .comment{
+    
+} */
+
+.testicontainer2{
+    font-family: 'Inter';
+
+}
+
+.testicontainer2 h4{
+    color:#FF6868;
+    letter-spacing:5px;
+    font-size: 20px;
+
+}
+.testicontainer2 h1{
+    font-weight: bold;
+    font-size: 60px;
+    line-height:1.2;
+    color:black;
+}
+.testicontainer2 p{
+    font-size: 26px;
+    font-weight:500;
+    color:#555555
+}
+.customerfeedback{
+    display: flex;
+gap:2rem;
+position: relative;
+bottom:15px;
+}
+
+
+ .feedbackcontainer{
+    position: relative;
+    top:20px;
+ }
+ .feedbackcontainer h3{
+    font-size: 26px;
+ }
+
+.feedback{
+    position:relative;
+    bottom:10px;
+    display: flex;
+    gap:1rem;
+
+}
+.feedback img{
+    height:24px;
+    width:24px;
+}
+.feedback h3{
+    font-size: 24px;
+    position: relative;
+    bottom:30px;
+
+}
+.feedback p{
+    position:relative;
+    bottom:30px;
+    font-size: 24px;
+    color:#807E7E;
+}
+@media (max-width:1280px){
+    .testimonialcontainer{
+        margin-top:250px;
+        display: flex;
+        justify-content: center;
+        /* max-width:90%; */
+    }
+    .testicontainer1{
+        display:flex;
+    
+    }
+    .testicontainer1 .chefpic{
+        position:relative;
+        height:90%;
+        width:90%
+    }
+    .testicontainer1 p{
+        position: relative;
+        top:451px;
+        font-size:40px
+    }
+    .testicontainer1 .p1{
+        position:relative;
+        left:120px;
+        z-index:4;
+        transform: rotate(-20deg);
+        
+         /* outside left */
+        /* transform: rotate(-20deg) translateY(-50%); */
+        
+    }
+    
+    .testicontainer1 .p2{
+        /* position:relative; */
+        right:30px;
+        margin-bottom:640px;
+        transform: rotate(60deg);
+    }
+    
+    .bestchef {
+        display: block;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+    height:79px;
+    width:350px;
+        top:600px;
+        right:250px;
+        /* position: relative;
+        height:79px; */
+    
+    
+    }
+    .bestchef .comment{
+       position:relative;
+        height:200px;
+        width:120%
+    }
+    .bestchef .p3{
+        position:absolute;
+        right:13px;
+        top:60px;
+    
+        font-size:17px;
+        font-weight:600;
+    }
+    /* .bestchef .comment{
+        
+    } */
+    
+    .testicontainer2{
+        font-family: 'Inter';
+    
+    }
+    
+    .testicontainer2 h4{
+        color:#FF6868;
+        letter-spacing:5px;
+        font-size: 18px;
+    
+    }
+    .testicontainer2 h1{
+        font-weight: bold;
+        font-size: 38px;
+        line-height:1.2;
+        color:black;
+    }
+    .testicontainer2 p{
+        font-size: 18px;
+        font-weight:400;
+        color:#555555
+    }
+    .customerfeedback{
+        display: flex;
+    /* gap:1rem; */
+    position: relative;
+    /* bottom:15px; */
+    }
+
+    /* .customers{
+        height:80px;
+        width:160px;
+    } */
+    
+     .feedbackcontainer{
+        position: relative;
+        /* top:20px; */
+        right:30px;
+     }
+     .feedbackcontainer h3{
+        font-size: 23px;
+     }
+    
+    .feedback{
+        position:relative;
+        bottom:10px;
+        display: flex;
+        gap:1rem;
+    
+    }
+    .feedback img{
+        height:20px;
+        width:20px;
+    }
+    .feedback h3{
+        font-size: 22px;
+        position: relative;
+        bottom:30px;
+    
+    }
+    .feedback p{
+        /* position:relative; */
+        bottom:30px;
+        /* gap:1 rem; */
+        font-size: 20px;
+        color:#807E7E;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    
+    }
+}
+
+
+
+
+
+@media(max-width:768px)
+{
+    .testimonialcontainer{
+    margin-top:100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.testicontainer1{
+    display:flex;
+    height:auto;
+    width:70%;
+    justify-content: center;
+    margin-bottom: 20px;
+
+
+}
+.testicontainer1 .chefpic{
+    position:relative;
+    height:400px;  
+}
+.testicontainer1 p{
+    position: relative;
+    top:221px;
+    font-size:25px
+}
+.testicontainer1 .p1{
+    position:relative;
+    left:70px;
+    z-index:4;
+    transform: rotate(-20deg);
+    
+     /* outside left */
+    /* transform: rotate(-20deg) translateY(-50%); */
+    
+}
+
+.testicontainer1 .p2{
+    /* position:relative; */
+    right:30px;
+    margin-bottom:300px;
+    transform: rotate(60deg);
+}
+
+.bestchef {
+    display: block;
+    /* justify-content:center;
+    align-items: center; */
+    position: relative;
+height:auto;
+width:100%;
+max-width:250px;
+top:250px;
+    /* right:150px; */
+    /* position: relative;
+    height:79px; */
+
+
+}
+.bestchef .comment{
+   position:relative;
+    top:100px;
+   height:auto;
+    display: block;
+    max-width: 220px;
+    width:100%;
+    /* border:1px solid blue; */
+}
+.bestchef .p3{
+    position:absolute;
+    right:40px;
+    top:129px;
+
+    font-size:13px;
+    font-weight:600;
+}
+/* .bestchef .comment{
+    
+} */
+
+.testicontainer2{
+    font-family: 'Inter';
+    /* max-width:90%; */
+
+}
+
+.testicontainer2 h4{
+    color:#FF6868;
+    letter-spacing:5px;
+    font-size: 15px;
+
+}
+.testicontainer2 h1{
+    font-weight: bold;
+    font-size: 25px;
+    line-height:1.2;
+    color:black;
+}
+.testicontainer2 p{
+    font-size: 15px;
+    font-weight:500;
+    color:#555555
+}
+.customerfeedback{
+    display: flex;
+gap:2rem;
+position: relative;
+bottom:15px;
+}
+.customerfeedback .customers{
+    width:120px;
+}
+
+ .feedbackcontainer{
+    position: relative;
+    top:20px;
+ }
+ .feedbackcontainer h3{
+    font-size: 20px;
+ }
+
+.feedback{
+    position:relative;
+    bottom:10px;
+    display: flex;
+    gap:1rem;
+
+}
+.feedback img{
+    height:20px;
+    width:20px;
+}
+.feedback h3{
+    font-size: 15px;
+    position: relative;
+    bottom:30px;
+
+}
+.feedback p{
+    position:relative;
+    bottom:30px;
+    font-size: 15px;
+    color:#807E7E;
+}
+}
