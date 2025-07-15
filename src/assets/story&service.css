@@ -251,6 +251,214 @@ flex-direction: column;
     }
 }
 
+@media (max-width:640px){
+.storyservices{
+        display:flex;
+        width:100%;
+        flex-direction: column;
+        justify-content:center;
+        text-align: center;
+        align-items: center;
+        gap:3rem;
+        margin-top: 100px;
+        
+    }
+    .storyContainer{
+    font-family:"Inter";
+    display: flex;
+    margin-left:129px;
+    flex-direction: column;
+    /* text-align: ; */
+    }
+    
+    .storyContainer h4{
+        color:#FF6868;
+        letter-spacing:2px;
+        font-size: 18px;
+        margin: auto;
+    }
+    .storyContainer h1{ 
+        font-size: 47px;
+        white-space: nowrap;
+
+        color:black;
+    }
+    .storyContainer p{
+        /* margin:3px auto; */
+        color:#555555;
+        font-size: 22px;
+        font-weight: 500;
+        line-height:1.5;
+        /* margin-bottom:10px; */
+    }
+    .storyContainer button{
+        height:75px;
+        width: 180px;
+        border-radius: 40px;
+        background-color:#39DB4A;
+        color:white;
+        font-size: 22px;
+        font-weight: 500;
+        cursor:pointer;
+        margin-left:145px;
+    
+    }
+    .serviceContainer{
+        max-width: 600px;
+        display: flex;
+        gap:2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-bottom:30px;
+    }
+    .listFeaturescard{
+        height:250.15px;
+        width:227px;
+        padding:8px 8px;
+        text-align: center;
+        /* box-sizing: border-box; */
+        border:none;
+        box-shadow:2px 12px 43px rgb(0,0,0,0.14);
+        border-radius: 30px;
+    }
+    .listFeaturescard img{
+        margin-top: 25px;
+    }
+    .listFeaturescard h3{
+        color:#5FE26C;
+        font-size: 18px;
+        font-weight: bold;
+    
+    }
+    .listFeaturescard p{
+        width:180px;
+        color:#90BD95;
+        font-size: 18px;
+        font-weight: 600;
+        position: relative;
+        left:27px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:480px){
+.storyservices{
+        display:flex;
+        width:100%;
+        flex-direction: column;
+        justify-content:center;
+        text-align: center;
+        align-items: center;
+        gap:3rem;
+        margin-top: 100px;
+        
+    }
+    .storyContainer{
+    font-family:"Inter";
+    display: flex;
+    margin-left:129px;
+    flex-direction: column;
+    /* text-align: ; */
+    }
+    
+    .storyContainer h4{
+        color:#FF6868;
+        letter-spacing:2px;
+        font-size: 20px;
+        margin: auto;
+    }
+    .storyContainer h1{ 
+        font-size: 50px;
+        white-space: nowrap;
+
+        color:black;
+    }
+    .storyContainer p{
+        /* margin:3px auto; */
+        color:#555555;
+        font-size: 24px;
+        font-weight: 500;
+        line-height:1.5;
+        /* margin-bottom:10px; */
+    }
+    .storyContainer button{
+        height:75px;
+        width: 180px;
+        border-radius: 40px;
+        background-color:#39DB4A;
+        color:white;
+        font-size: 22px;
+        font-weight: 500;
+        cursor:pointer;
+        margin-left:155px;
+    
+    }
+    .serviceContainer{
+        max-width: 600px;
+        display: flex;
+        gap:2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-bottom:30px;
+    }
+    .listFeaturescard{
+        height:252.15px;
+        width:229px;
+        padding:8px 8px;
+        text-align: center;
+        /* box-sizing: border-box; */
+        border:none;
+        box-shadow:2px 12px 43px rgb(0,0,0,0.14);
+        border-radius: 30px;
+    }
+    .listFeaturescard img{
+        margin-top: 25px;
+    }
+    .listFeaturescard h3{
+        color:#5FE26C;
+        font-size: 18px;
+        font-weight: bold;
+    
+    }
+    .listFeaturescard p{
+        width:180px;
+        color:#90BD95;
+        font-size: 18px;
+        font-weight: 600;
+        position: relative;
+        left:27px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

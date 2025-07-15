@@ -284,30 +284,31 @@ bottom:15px;
     width:100%;
     align-items: center;
     justify-content:center;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
 }
 .testicontainer1{
     display:flex;
     height:auto;
-    width:70%;
+    margin-left:170px;
+    width:80%;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
 
 }
 .testicontainer1 .chefpic{
     position:relative;
-    height:400px;  
+    height:500px;  
 }
 .testicontainer1 p{
     position: relative;
-    top:221px;
+    top:281px;
     font-size:25px
 }
 .testicontainer1 .p1{
     position:relative;
-    left:70px;
+    left:75px;
     z-index:4;
     transform: rotate(-20deg);
     
@@ -318,7 +319,7 @@ bottom:15px;
 
 .testicontainer1 .p2{
     /* position:relative; */
-    right:30px;
+    right:79px;
     margin-bottom:300px;
     transform: rotate(60deg);
 }
@@ -331,8 +332,8 @@ bottom:15px;
 height:auto;
 width:100%;
 max-width:250px;
-top:250px;
-    /* right:150px; */
+top:350px;
+    right:180px;
     /* position: relative;
     height:79px; */
 
@@ -350,9 +351,9 @@ top:250px;
 .bestchef .p3{
     position:absolute;
     right:40px;
-    top:129px;
+    top:121px;
 
-    font-size:13px;
+    font-size:14px;
     font-weight:600;
 }
 /* .bestchef .comment{
@@ -368,17 +369,17 @@ top:250px;
 .testicontainer2 h4{
     color:#FF6868;
     letter-spacing:5px;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 .testicontainer2 h1{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
     line-height:1.2;
     color:black;
 }
 .testicontainer2 p{
-    font-size: 15px;
+    font-size: 18px;
     font-weight:500;
     color:#555555
 }
@@ -408,8 +409,10 @@ bottom:15px;
 
 }
 .feedback img{
-    height:20px;
-    width:20px;
+    height:16px;
+    width:16px;
+position: relative;
+bottom:10px;
 }
 .feedback h3{
     font-size: 15px;
@@ -423,4 +426,323 @@ bottom:15px;
     font-size: 15px;
     color:#807E7E;
 }
+}    
+
+
+
+
+
+
+
+
+@media(max-width:640px)
+{
+    .testimonialcontainer{
+    margin-top:100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
 }
+.testicontainer1{
+    display:flex;
+    height:auto;
+    margin-left:170px;
+    width:80%;
+    justify-content: center;
+    margin-bottom: 0px;
+
+
+}
+.testicontainer1 .chefpic{
+    position:relative;
+    height:500px;  
+}
+.testicontainer1 p{
+    position: relative;
+    top:281px;
+    font-size:25px
+}
+.testicontainer1 .p1{
+    position:relative;
+    left:75px;
+    z-index:4;
+    transform: rotate(-20deg);
+    
+     /* outside left */
+    /* transform: rotate(-20deg) translateY(-50%); */
+    
+}
+
+.testicontainer1 .p2{
+    /* position:relative; */
+    right:79px;
+    margin-bottom:300px;
+    transform: rotate(60deg);
+}
+
+.bestchef {
+    display: block;
+    /* justify-content:center;
+    align-items: center; */
+    position: relative;
+height:auto;
+width:100%;
+max-width:250px;
+top:350px;
+    right:180px;
+    /* position: relative;
+    height:79px; */
+
+
+}
+.bestchef .comment{
+   position:relative;
+    top:100px;
+   height:auto;
+    display: block;
+    max-width: 220px;
+    width:100%;
+    /* border:1px solid blue; */
+}
+.bestchef .p3{
+    position:absolute;
+    right:40px;
+    top:121px;
+
+    font-size:14px;
+    font-weight:600;
+}
+/* .bestchef .comment{
+    
+} */
+
+.testicontainer2{
+    font-family: 'Inter';
+    /* max-width:90%; */
+
+}
+
+.testicontainer2 h4{
+    color:#FF6868;
+    letter-spacing:5px;
+    font-size: 18px;
+
+}
+.testicontainer2 h1{
+    font-weight: bold;
+    font-size: 37px;
+    line-height:1.1;
+    color:black;
+}
+.testicontainer2 p{
+    font-size: 19px;
+    font-weight:500;
+    color:#555555
+}
+.customerfeedback{
+    display: flex;
+gap:2rem;
+position: relative;
+bottom:15px;
+}
+.customerfeedback .customers{
+    width:120px;
+}
+
+ .feedbackcontainer{
+    position: relative;
+    top:20px;
+ }
+ .feedbackcontainer h3{
+    font-size: 21px;
+ }
+
+.feedback{
+    position:relative;
+    bottom:10px;
+    display: flex;
+    gap:1rem;
+
+}
+.feedback img{
+    height:17px;
+    width:17px;
+position: relative;
+bottom:10px;
+}
+.feedback h3{
+    font-size: 17px;
+    position: relative;
+    bottom:30px;
+
+}
+.feedback p{
+    position:relative;
+    bottom:30px;
+    font-size: 17px;
+    color:#807E7E;
+}
+}
+
+
+
+@media(max-width:480px)
+{
+    .testimonialcontainer{
+    margin-top:100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+}
+.testicontainer1{
+    display:flex;
+    height:auto;
+    margin-left:170px;
+    height: 100%;
+    width:95%;
+    justify-content: center;
+    margin-bottom: 0px;
+
+
+}
+.testicontainer1 .chefpic{
+    position:relative;
+    height:500px;  
+}
+.testicontainer1 p{
+    position: relative;
+    top:281px;
+    font-size:38px
+}
+.testicontainer1 .p1{
+    position:relative;
+    left:75px;
+    z-index:4;
+    transform: rotate(-20deg);
+    
+     /* outside left */
+    /* transform: rotate(-20deg) translateY(-50%); */
+    
+}
+
+.testicontainer1 .p2{
+    /* position:relative; */
+    right:79px;
+    margin-bottom:300px;
+    transform: rotate(60deg);
+}
+
+.bestchef {
+    display: block;
+    /* justify-content:center;
+    align-items: center; */
+    position: relative;
+height:auto;
+width:100%;
+max-width:250px;
+top:350px;
+    right:180px;
+    /* position: relative;
+    height:79px; */
+
+
+}
+.bestchef .comment{
+   position:relative;
+    top:100px;
+   height:auto;
+    display: block;
+    max-width: 240px;
+    width:100%;
+    /* border:1px solid blue; */
+}
+.bestchef .p3{
+    position:absolute;
+    right:70px;
+    top:121px;
+
+    font-size:18px;
+    font-weight:600;
+}
+/* .bestchef .comment{
+    
+} */
+
+.testicontainer2{
+    font-family: 'Inter';
+    /* max-width:90%; */
+
+}
+
+.testicontainer2 h4{
+    color:#FF6868;
+    letter-spacing:4px;
+    font-size: 19px;
+
+}
+.testicontainer2 h1{
+    font-weight: bold;
+    font-size: 39px;
+    line-height:1.1;
+    color:black;
+}
+.testicontainer2 p{
+    font-size: 22px;
+    font-weight:500;
+    color:#555555
+}
+.customerfeedback{
+    display: flex;
+gap:2rem;
+position: relative;
+bottom:15px;
+}
+.customerfeedback .customers{
+    width:190px;
+}
+
+ .feedbackcontainer{
+    position: relative;
+    top:20px;
+ }
+ .feedbackcontainer h3{
+    font-size: 22px;
+ }
+
+.feedback{
+    position:relative;
+    bottom:10px;
+    display: flex;
+    gap:1rem;
+
+}
+.feedback img{
+    height:20px;
+    width:20px;
+position: relative;
+bottom:10px;
+}
+.feedback h3{
+    font-size: 19px;
+    position: relative;
+    bottom:30px;
+
+}
+.feedback p{
+    position:relative;
+    bottom:30px;
+    font-size: 19px;
+    color:#807E7E;
+}
+}
+

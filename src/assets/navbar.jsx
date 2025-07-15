@@ -1,5 +1,6 @@
 import React from "react";
 import './navbar.css'
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import Logo from '../assets/Images/Logo.svg'
 import Search from '../assets/Images/🦆 icon _search_.svg'
@@ -26,15 +27,32 @@ const [sidebaropen, setSidebaropen]=useState(false)
               onClick={() => setSidebaropen(false)}
             />
           </li>
-  
         </div>
 
-        <li>Home</li>
-        <li>Menu</li>
-        <li>Services</li>
-        <li>Offers</li>
+        <li>
+          <Link  to='/'>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link  to='/menu'>
+            Menu
+          </Link>
+        </li>
+        <li>
+          <Link  to='/service'>
+            Services
+          </Link>
+        </li>
+        <li>
+          <Link  to='/offers'>
+            Offers
+          </Link>
+        </li>
       </ul>
-      {sidebaropen && <div className="colorDrop"  onClick={()=>setSidebaropen(false)}></div>}
+      {sidebaropen && (
+        <div className='colorDrop' onClick={() => setSidebaropen(false)}></div>
+      )}
       <div className='logo-conatiner'>
         <img
           className='hideicon'
@@ -45,15 +63,10 @@ const [sidebaropen, setSidebaropen]=useState(false)
       </div>
 
       <ul className='nav-links'>
-        <li>Home </li>
-        <li className='li_1'>
-          <p>Menu</p>
-          <img src={arrow} />
-        </li>
-        <li className='li_1'>
-          Services <img src={arrow} />
-        </li>
-        <li>Offers</li>
+        <li><Link  to='/'>Home</Link> </li>
+        <li className='li_1'><Link  to='/menu'>Menu</Link><img src={arrow} /></li>
+        <li className='li_1'><Link  to='/service'>Services</Link> <img src={arrow} /></li>
+        <li><Link  to='/offers'>Offers</Link></li>
       </ul>
 
       <div className='search-box'>
@@ -65,7 +78,7 @@ const [sidebaropen, setSidebaropen]=useState(false)
         </div>
 
         <div className='contact'>
-          <img src={Phone} />
+          <img className='phone' src={Phone} />
           <p>Contact</p>
         </div>
       </div>
