@@ -64,8 +64,14 @@ const [sidebaropen, setSidebaropen]=useState(false)
 
       <ul className='nav-links'>
         <li><Link  to='/'>Home</Link> </li>
-        <li className='li_1'><Link  to='/menu'>Menu</Link><img src={arrow} /></li>
-        <li className='li_1'><Link  to='/service'>Services</Link> <img src={arrow} /></li>
+        <li className='li_1'><Link to='/menu'>Menu</Link><img src={arrow} />
+          <ul className='dropdownlist'>
+            <li>Breakfast</li>
+            <li>Lunch</li>
+            <li>dinner</li>
+        </ul>
+        </li>
+        <li className='li_2'><Link  to='/service'>Services</Link> <img src={arrow} /></li>
         <li><Link  to='/offers'>Offers</Link></li>
       </ul>
 
